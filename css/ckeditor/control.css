@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Istok+Web:400italic,400);
+
+body {
+	font: 14px Arial, sans-serif;
+}
+.content-header {
+	font-size: 22px;
+	font-family: 'Istok Web', sans-serif;
+	line-height: 1em;
+}
+p {
+	margin: 0 0 12px;
+	line-height: 1.5em;
+}
+ul,ol {
+	margin-bottom: 15px;
+}
+li {
+	margin: 0 0 5px 40px;
+	list-style-type: square;
+	list-style-position: outside;
+	line-height: 1.5em;
+}
+li ul {
+	margin-top: 15px;
+}
+table {
+	width: 760px;
+	margin-bottom: 15px;
+}
+able td,
+table th {
+	padding: 10px;
+	border: 1px solid #787878;
+}
+table th {
+	font-weight: bold;
+}

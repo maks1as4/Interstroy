@@ -1,0 +1,708 @@
+@import url(https://fonts.googleapis.com/css?family=Istok+Web:400italic,400);
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 14px Arial, sans-serif;
+	width: 100%;
+	height: 100%;
+	background: url('../images/main-bg.png') repeat 0 0;
+}
+#wrapper {
+	width: 1100px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	background: #ffffff;
+	-webkit-box-shadow:0px 0px 25px 0px #454545;
+	   -moz-box-shadow:0px 0px 25px 0px #454545;
+	        box-shadow:0px 0px 25px 0px #454545;
+}
+
+
+/* General style
+-----------------------------------------------------------------------------*/
+a {
+	color: #000080;
+}
+a:hover {
+	color: #0000c0;
+}
+a:focus {
+	outline: none !important;
+}
+a.dashed {
+	text-decoration:none;
+	border-bottom:1px dashed #2b5e5e;
+}
+a.dashed:hover {
+	text-decoration: none;
+	border-bottom: 1px dashed #122B2B;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #414042;
+	font-family: 'Istok Web', sans-serif;
+	letter-spacing: 0.04em;
+	text-rendering: optimizelegibility;
+	margin-bottom: 12px;
+	line-height: 1.3em;
+}
+h1 {
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+h2 {
+	font-size: 18px;
+	margin-bottom: 18px;
+}
+h3 {
+	font-size: 16px;
+}
+p {
+	margin: 0 0 12px;
+}
+p.head {
+	font-size: 25px;
+	font-family: 'Istok Web', sans-serif;
+	color: #414042;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.text-left {
+	text-align: left;
+}
+.text-nobr {
+	white-space: nowrap;
+}
+.muted {
+  color: #999999;
+}
+a.muted:hover,
+a.muted:focus {
+  color: #808080;
+}
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
+.shadow {
+	-webkit-box-shadow: 0 0 5px 0 #464646;
+	   -moz-box-shadow: 0 0 5px 0 #464646;
+			box-shadow: 0 0 5px 0 #464646;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 220px;
+	font-family: 'Istok Web', sans-serif;
+}
+#header div.logo-smallcontacts {
+	float: left;
+	width: 500px;
+}
+#header div.logo {
+	width: 430px;
+	height: 90px;
+	margin: 20px 0 5px 30px;
+}
+#header div.smallcontacts {
+	width: 390px;
+	height: 70px;
+	margin-left: 50px;
+}
+#header div.slogan {
+	width: 390px;
+	margin-left: 50px;
+	padding: 5px 0 0 0;
+	border-top: 1px solid #acacac;
+	font-size: 11px;
+	font-style: italic;
+	color: #787878;
+}
+#header div.contact-cell {
+	float: left;
+	height: 70px;
+}
+#header div.location-picture {
+	width: 40px;
+}
+#header div.location-picture div.inner {
+	margin-top: 25px;
+}
+#header div.address {
+	width: 170px;
+}
+#header div.address div.inner {
+	margin-top: 17px;
+}
+#header div.phone-picture {
+	width: 40px;
+	margin-left: 10px;
+}
+#header div.phone-picture div.inner {
+	margin-top: 23px;
+}
+#header div.phone {
+	width: 130px;
+}
+#header div.phone div.inner {
+	margin-top: 26px;
+}
+#header div.slider {
+	float: left;
+	width: 600px;
+}
+
+
+/* Menu
+-----------------------------------------------------------------------------*/
+#menu {
+	height: 50px;
+	padding-top: 10px;
+	background: #1c75bc;
+}
+#menu ul {
+	width: 658px;
+	margin: 0 auto;
+}
+#menu ul li {
+	display: block;
+	float: left;
+	height: 30px;
+	padding: 10px 20px 0;
+}
+#menu ul li:hover,
+#menu ul li.active {
+	border-bottom: 2px solid #ffffff;
+}
+#menu ul li a {
+	color: #ffffff;
+	font-size: 17px;
+	font-family: 'Istok Web', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+/* Breadcrumbs
+-----------------------------------------------------------------------------*/
+#breadcrumbs {
+	margin-bottom: 20px;
+}
+.breadcrumbs  {
+	line-height: 1.5em;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+	width: 100%;
+	padding: 0 0 100px;
+	position: relative;
+}
+#middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+#container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+#content {
+	padding: 20px 20px 40px 320px;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+#left-sidebar {
+	float: left;
+	width: 280px;
+	margin-left: -100%;
+	padding: 15px 0 40px 20px;
+	position: relative;
+}
+#left-sidebar ul {
+	margin-top: 20px;
+}
+#left-sidebar li {
+	margin-bottom: 20px;
+}
+#left-sidebar li a{
+	font-size: 17px;
+}
+#left-sidebar li a.active{
+	color: #414042 !important;
+	text-decoration: none !important;
+}
+
+
+/* Right Sidebar
+-----------------------------------------------------------------------------*/
+#right-sidebar {
+	float: left;
+	width: 230px;
+	margin-left: -250px;
+	padding: 15px 20px 40px 0;
+	position: relative;
+}
+#right-sidebar div.news-block {
+	margin-top: 30px;
+}
+#right-sidebar div.news-block-first {
+	margin-top: 0 !important;
+}
+#right-sidebar p.news-body {
+	margin: 0;
+	padding: 5px 0;
+}
+#right-sidebar p.news-date {
+	font-size: 11px;
+	color: #acacac;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	width: 1100px;
+	margin: -100px auto 0;
+	height: 100px;
+	background: #1c75bc;
+	position: relative;
+}
+#footer div.f-left {
+	float: left;
+	width: 490px;
+	margin: 10px 0 0 30px;
+	padding-top: 13px;
+}
+#footer  div.small-logo {
+	float: left;
+	margin-top: 5px;
+}
+#footer  div.company-name {
+	float: left;
+	margin: 10px 0 0 15px;
+}
+#footer div.company-name p {
+	margin: 0;
+	color: #ffffff;
+	font-size: 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Istok Web', sans-serif;
+}
+#footer div.f-right {
+	float: left;
+	width: 490px;
+	padding-top: 20px;
+	margin: 20px 30px 0 60px;
+	color: #ffffff;
+}
+
+
+/* Slider
+-----------------------------------------------------------------------------*/
+#slider-wrap {
+	width: 600px; 
+}
+#slider {
+	width: 600px;
+	height: 220px;
+	overflow: hidden;
+	position: relative;
+}
+.slide {
+	width: 100%;
+	height: 100%;
+}
+.sli-links {
+	margin-top: 10px;
+	text-align: center;
+}
+#prewbutton,
+#nextbutton {
+	display: block;
+	width: 15px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+	text-indent: -999px;
+	background: url('/images/arrowBg.png') left center no-repeat;
+	opacity: 0.8;
+	z-index: 3;
+	outline: none !important;
+}
+#prewbutton {
+	left: 10px;
+}
+#nextbutton {
+	right: 10px;
+	background: url('/images/arrowBg.png') right center no-repeat;
+}
+#prewbutton:hover,
+#nextbutton:hover {
+	opacity: 1;
+}
+
+
+/* Catalog Mini
+-----------------------------------------------------------------------------*/
+#catalog-mini {
+	margin-bottom: 30px;
+}
+#catalog-mini div.row {
+	height: 200px;
+	margin-top: 10px;
+}
+#catalog-mini div.row-first {
+	margin-top: 0 !important;
+}
+#catalog-mini div.cell {
+	float: left;
+	width: 250px;
+	height: 200px;
+}
+#catalog-mini div.cell-first {
+	margin-right: 10px;
+}
+#catalog-mini div.sign-image {
+	position: relative;
+	font-size: 16px;
+}
+#catalog-mini div.sign-image img {
+	width: 250px;
+	height: 200px;
+}
+#catalog-mini div.title {
+	float: left;
+	position: absolute;
+	bottom: 0;
+	width: 230px;
+	padding: 10px;
+	background-color: #000080;
+	background-color: rgba(0, 10, 52, 0.8);
+}
+#catalog-mini div.title a {
+	color: #ffffff;
+	text-decoration: none;
+}
+#catalog-mini div.title a:hover {
+	text-decoration: underline;
+}
+#catalog-mini div.show-all {
+	margin-top: 12px;
+}
+
+
+/* Contacts
+-----------------------------------------------------------------------------*/
+#contacts div.address-map {
+	float: left;
+	width: 600px;
+	margin-right: 30px;
+}
+#contacts div.address {
+	margin-bottom: 20px;
+	font-size: 17px;
+}
+#contacts table td {
+	padding: 5px;
+}
+#contacts table td.bld {
+	font-weight: bold;
+}
+#contacts div.contact-form {
+	float: left;
+	width: 430px;
+}
+
+
+/* News
+-----------------------------------------------------------------------------*/
+#news div.row {
+	width: 760px;
+	margin-bottom: 40px;
+}
+#news div.image {
+	float: left;
+	width: 200px;
+}
+#news div.image img {
+	width: 200px;
+	height: 150px;
+}
+#news div.announce-full {
+	float: left;
+	width: 760px;
+}
+#news div.announce-half {
+	float: left;
+	width: 540px;
+	margin-left: 20px;
+}
+#news a.news-title {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+#news div.news-date {
+	margin-top: 10px;
+	font-size: 13px;
+	color: #acacac;
+}
+img.news-format {
+	float: left;
+	width: 200px;
+	height: 150px;
+	margin: 0 20px 10px 0;
+}
+
+
+/* Catalog 
+-----------------------------------------------------------------------------*/
+#catalog {
+	padding-top: 40px;
+	border-top: 2px solid #acacac;
+}
+#catalog div.row {
+	width: 760px;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	border-bottom: 2px solid #acacac;
+}
+#catalog div.images {
+	float: left;
+	width: 250px;
+	margin-right: 20px;
+}
+#catalog div.images img {
+	width: 250px;
+	height: 200px;
+}
+#catalog div.description {
+	float: left;
+	width: 490px;
+}
+#catalog div.description a.title {
+	display: block;
+	margin-bottom: 10px;
+	text-decoration: none;
+	font-size: 24px;
+}
+#catalog div.description a.title:hover {
+	text-decoration: underline;
+}
+#catalog div.description p {
+	margin: 0;
+}
+#catalog div.level2 {
+	margin-top: 10px;
+}
+#catalog div.level2 .cell {
+	float: left;
+	width: 235px;
+}
+#catalog div.level2 .cell-first {
+	margin-right: 20px;
+}
+#catalog div.level2 ul {
+	padding-left: 20px;
+}
+#catalog div.level2 li {
+	margin-top: 10px;
+	list-style-type: disc;
+}
+#catalog div.level2 a {
+	font-size: 16px;
+	line-height: 1.3em;
+}
+
+
+/* Main Content
+-----------------------------------------------------------------------------*/
+#main-content p {
+	line-height: 1.5em;
+}
+#main-content ul,
+#main-content ol {
+	margin-bottom: 15px;
+}
+#main-content li {
+	margin: 0 0 5px 40px;
+	list-style-type: square;
+	list-style-position: outside;
+	line-height: 1.5em;
+}
+#main-content li ul {
+	margin-top: 15px;
+}
+#main-content .content-header {
+	font-size: 22px;
+	font-family: 'Istok Web', sans-serif;
+	line-height: 1em;
+}
+#main-content table {
+	width: 760px;
+	margin-bottom: 15px;
+}
+#main-content table td,
+#main-content table th {
+	padding: 10px;
+	border: 1px solid #787878;
+}
+#main-content table th {
+	font-weight: bold;
+}
+
+
+/* Multi Category
+-----------------------------------------------------------------------------*/
+#multi-category {}
+#multi-category div.row {
+	width: 760px;
+	margin-bottom: 30px;
+}
+#multi-category div.image-box {
+	float: left;
+	width: 130px;
+}
+#multi-category div.image-box img {
+	padding: 5px 10px;
+}
+#multi-category div.categories-box {
+	float: left;
+	width: 630px;
+}
+#multi-category a.category-title {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #414042;
+	text-decoration: none;
+	font-family: 'Istok Web', sans-serif;
+}
+#multi-category li {
+	margin-bottom: 10px;
+}
+#multi-category li a {
+	font-size: 16px;
+	text-decoration: none;
+}
+#multi-category a.category-title:hover,
+#multi-category li a:hover {
+	text-decoration: underline;
+}
+
+
+/* Picture List
+-----------------------------------------------------------------------------*/
+#picture-list {}
+#picture-list div.picture {
+	float: left;
+	width: 280px;
+}
+#picture-list div.list {
+	float: left;
+	width: 480px;
+}
+#picture-list div.list-full {
+	width: 760px !important;
+}
+#picture-list div.list li {
+	margin-bottom: 10px;
+	list-style-type: square;
+	list-style-position: inside;
+}
+#picture-list div.list li a {
+	font-size: 16px;
+}
+
+
+/* Catalog uptc
+-----------------------------------------------------------------------------*/
+#catalog-uptc div.images {
+	float: left;
+	margin: 0 20px 10px 0;
+}
+#catalog-uptc table.products {
+	width: 760px;
+}
+#catalog-uptc table.products tr.header {
+	border: 1px solid #1c75bc;
+}
+#catalog-uptc table.products td {
+	padding: 10px;
+	border: 1px solid #787878;
+	text-align: center;
+}
+#catalog-uptc table.products td.first {
+	text-align: left !important;
+	white-space: nowrap;
+}
+#catalog-uptc table.products th {
+	padding: 10px;
+	border-left: 1px solid #ffffff;
+	background: #1c75bc;
+	color: #ffffff;
+	text-align: center;
+}
+#catalog-uptc table.products th.first {
+	border-left: 1px solid #1c75bc !important;
+}
+
+
+/* Form elements (general style in bootstrap.form.css)
+-----------------------------------------------------------------------------*/
+div.row {
+	margin-bottom: 10px;
+}
+p.note,
+div.hint {
+	color: #acacac;
+	font-style: italic;
+}
+span.required {
+	color: #b94a48;
+}
+div.errorMessage {
+	margin-bottom: 20px;
+	color: #b94a48;
+}
+input.edit300 {
+	width: 300px !important;
+}
+textarea.memo400x300 {
+	width: 400px !important;
+	height: 300px !important;
+}
